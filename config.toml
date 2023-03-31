@@ -1,4 +1,24 @@
 baseURL = 'https://rosslopez.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Ross Lopez'
 theme = 'hello-friend-ng'
+
+[[params.social]]
+  name = "email"
+  url = "mailto:ross@ztsec.io"  
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/rosslopez"
+
+[[params.social]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/rosslopez/"
+
+[[params.social]]
+  name = "facebook"
+  url = "https://www.facebook.com/profile.php?id=100010581961427"
+
+[[params.social]]
+  name = "mastodon"
+  url = "https://infosec.exchange/@rosslopez"  
