@@ -4,6 +4,7 @@ title = 'Ross Lopez'
 theme = 'hello-friend-ng'
 
 [params]
+
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
@@ -11,6 +12,7 @@ theme = 'hello-friend-ng'
 
   # Subtitle for home
   homeSubtitle = "Security Engineer // Consultant"
+  
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -22,6 +24,8 @@ theme = 'hello-friend-ng'
   description = "My new homepage or blog"
   keywords = "homepage, blog"
   images = [""]
+
+
 
 [taxonomies]
     category = "blog"
@@ -45,6 +49,13 @@ theme = 'hello-friend-ng'
     # alt = "Your example logo alt text"
 
   # And you can even create generic menu
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume/"
+    weight = 1
+
   [[menu.main]]
     identifier = "blog"
     name       = "Blog"
@@ -69,3 +80,7 @@ theme = 'hello-friend-ng'
 [[params.social]]
   name = "mastodon"
   url = "https://infosec.exchange/@rosslopez"  
+
+
+[markup.goldmark.renderer]
+unsafe= true
