@@ -1,0 +1,43 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Ross Lopez</title>
+        <link>https://rosslopez.github.io/posts/</link>
+        <description>Recent content in Posts on Ross Lopez</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Tue, 08 Apr 2025 10:36:52 -0400</lastBuildDate>
+        <atom:link href="https://rosslopez.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Any Program Can Be a GitHub Actions Shell Github Action</title>
+            <link>https://rosslopez.github.io/posts/any-program-github-action/</link>
+            <pubDate>Tue, 08 Apr 2025 10:36:52 -0400</pubDate>
+            
+            <guid>https://rosslopez.github.io/posts/any-program-github-action/</guid>
+            <description>&lt;h2 id=&#34;any-program-can-be-a-github-actions-shell&#34;&gt;Any Program Can Be a GitHub Actions Shell&lt;/h2&gt;
+&lt;p&gt;While setting up my website to deploy automatically using GitHub Pages, I stumbled upon an interesting realization: any program can become a shell in GitHub Actions. This flexibility opens a world of possibilities beyond traditional shell scripting.&lt;/p&gt;
+&lt;p&gt;GitHub Actions workflows traditionally run bash or PowerShell commands. But you&amp;rsquo;re not limited to just these options; you can specify any interpreter—Python, Node.js, even custom-built executables. Let&amp;rsquo;s explore a couple of quick, practical examples:&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<h2 id="any-program-can-be-a-github-actions-shell">Any Program Can Be a GitHub Actions Shell</h2>
+<p>While setting up my website to deploy automatically using GitHub Pages, I stumbled upon an interesting realization: any program can become a shell in GitHub Actions. This flexibility opens a world of possibilities beyond traditional shell scripting.</p>
+<p>GitHub Actions workflows traditionally run bash or PowerShell commands. But you&rsquo;re not limited to just these options; you can specify any interpreter—Python, Node.js, even custom-built executables. Let&rsquo;s explore a couple of quick, practical examples:</p>
+<h3 id="example-1-using-python-directly-in-github-actions">Example 1: Using Python Directly in GitHub Actions</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>- <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Run Python script directly</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">shell</span>: <span style="color:#ae81ff">python</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">run</span>: |<span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    import os
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    print(&#34;The current working directory is:&#34;, os.getcwd())</span>
+</span></span></code></pre></div><p>Here, instead of calling a Python file from bash, the Python code is directly embedded, making your workflows clearer and simpler.</p>
+<h3 id="example-2-using-nodejs-as-a-shell">Example 2: Using Node.js as a Shell</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>- <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Run JavaScript code directly</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">shell</span>: <span style="color:#ae81ff">node</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">run</span>: |<span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    const os = require(&#39;os&#39;);
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    console.log(`System uptime is ${os.uptime()} seconds.`);</span>
+</span></span></code></pre></div><p>This is incredibly powerful because it lets you leverage the full ecosystem and capabilities of your chosen runtime directly within GitHub Actions workflows.</p>
+<p>This realization has changed how I think about GitHub Actions—it’s not just automation scripts, but a flexible execution environment capable of integrating seamlessly with almost any programming language or runtime.</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

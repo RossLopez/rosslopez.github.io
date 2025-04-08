@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ross Lopez</title>
+    <link>https://rosslopez.github.io/</link>
+    <description>Recent content on Ross Lopez</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 08 Apr 2025 10:36:52 -0400</lastBuildDate>
+    <atom:link href="https://rosslopez.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Any Program Can Be a GitHub Actions Shell Github Action</title>
+      <link>https://rosslopez.github.io/posts/any-program-github-action/</link>
+      <pubDate>Tue, 08 Apr 2025 10:36:52 -0400</pubDate>
+      <guid>https://rosslopez.github.io/posts/any-program-github-action/</guid>
+      <description>&lt;h2 id=&#34;any-program-can-be-a-github-actions-shell&#34;&gt;Any Program Can Be a GitHub Actions Shell&lt;/h2&gt;&#xA;&lt;p&gt;While setting up my website to deploy automatically using GitHub Pages, I stumbled upon an interesting realization: any program can become a shell in GitHub Actions. This flexibility opens a world of possibilities beyond traditional shell scripting.&lt;/p&gt;&#xA;&lt;p&gt;GitHub Actions workflows traditionally run bash or PowerShell commands. But you&amp;rsquo;re not limited to just these options; you can specify any interpreter—Python, Node.js, even custom-built executables. Let&amp;rsquo;s explore a couple of quick, practical examples:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Resume</title>
+      <link>https://rosslopez.github.io/resume/</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://rosslopez.github.io/resume/</guid>
+      <description>&lt;h1 align=&#34;center&#34;&gt;ROSS A. LOPEZ &lt;/h1&gt;&#xA;&lt;p style=&#34;text-align: center;&#34;&gt; ross@ztsec.io &lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 style=&#34;text-align: center;&#34;&gt;Summary &lt;/h3/&#xA;&lt;p&gt;Senior Security Engineer with 18+ years of progressive experience in IT, specializing in Security, Networking, and recent focus on implementing Zero Trust and DevSecOps practices. Expertise in Splunk architecting and administration, and SIEM technologies.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Holds an active Top Secret clearance&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 style=&#34;text-align: center;&#34;&gt; Education &amp; Professional training &lt;/h3&gt;&#xA;&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hashicorp - Certified Terraform Associate&lt;/li&gt;&#xA;&lt;li&gt;AWS - Certified AI Practitioner (2025)&lt;/li&gt;&#xA;&lt;li&gt;Zscaler- Zero Trust Certified Architect (2023)&lt;/li&gt;&#xA;&lt;li&gt;AWS - Certified Cloud Practitioner (2022)&lt;/li&gt;&#xA;&lt;li&gt;Splunk - Splunk Certified Admin v6 (2017) v7 (2019)&lt;/li&gt;&#xA;&lt;li&gt;GIAC GCED - GIAC Certified Enterprise Defender (2015)&lt;/li&gt;&#xA;&lt;li&gt;CCNA Security – Cisco Certified Network Associate – Security ~ Cisco (2013)&lt;/li&gt;&#xA;&lt;li&gt;CCNA – Cisco Certified Network Associate ~ Cisco (2012)&lt;/li&gt;&#xA;&lt;li&gt;Security+ ~ CompTia (2011)&lt;/li&gt;&#xA;&lt;li&gt;Database Design Specialist ~ CIW (2013)&lt;/li&gt;&#xA;&lt;li&gt;CEH - Certified Ethical Hacker ~ EC-Council (2011)&lt;/li&gt;&#xA;&lt;li&gt;A+ - Computer Technician Certified ~ CompTia (2009)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 style=&#34;text-align: center;&#34;&gt; Professional Experience &lt;/h3&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;Accenture Federal Services&lt;/strong&gt;&lt;/em&gt;,   Washington, DC (remote)  (2022 – Present)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

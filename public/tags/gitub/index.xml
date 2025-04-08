@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gitub on Ross Lopez</title>
+    <link>https://rosslopez.github.io/tags/gitub/</link>
+    <description>Recent content in Gitub on Ross Lopez</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 08 Apr 2025 10:36:52 -0400</lastBuildDate>
+    <atom:link href="https://rosslopez.github.io/tags/gitub/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Any Program Can Be a GitHub Actions Shell Github Action</title>
+      <link>https://rosslopez.github.io/posts/any-program-github-action/</link>
+      <pubDate>Tue, 08 Apr 2025 10:36:52 -0400</pubDate>
+      <guid>https://rosslopez.github.io/posts/any-program-github-action/</guid>
+      <description>&lt;h2 id=&#34;any-program-can-be-a-github-actions-shell&#34;&gt;Any Program Can Be a GitHub Actions Shell&lt;/h2&gt;&#xA;&lt;p&gt;While setting up my website to deploy automatically using GitHub Pages, I stumbled upon an interesting realization: any program can become a shell in GitHub Actions. This flexibility opens a world of possibilities beyond traditional shell scripting.&lt;/p&gt;&#xA;&lt;p&gt;GitHub Actions workflows traditionally run bash or PowerShell commands. But you&amp;rsquo;re not limited to just these options; you can specify any interpreter—Python, Node.js, even custom-built executables. Let&amp;rsquo;s explore a couple of quick, practical examples:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
