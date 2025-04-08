@@ -26,6 +26,8 @@ Senior Security Engineer with 18+ years of progressive experience in IT, special
 ---
 
 
+* Hashicorp - Certified Terraform Associate
+* AWS - Certified AI Practitioner (2025)
 * Zscaler- Zero Trust Certified Architect (2023)
 * AWS - Certified Cloud Practitioner (2022)
 * Splunk - Splunk Certified Admin v6 (2017) v7 (2019)
