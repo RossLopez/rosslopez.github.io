@@ -6,9 +6,14 @@ toc: false
 images:
 tags:
   - gitub
+  - ci/cd
+  - vscode
+  - github actions
+  - pipelines
+  - python
 ---
 <div style="text-align: center;">
-  <img src="../../static/blog_post_2.png" alt="Blog Post Image" />
+  <img src="/blog_post_2.png" alt="Blog Post Image" />
 </div>
 
 ## Any Program Can Be a GitHub Actions Shell
